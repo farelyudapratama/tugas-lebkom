@@ -1,0 +1,167 @@
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 16pt;
+    overflow-x: hidden;
+}
+header{
+    background: url('BC.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+header .wrapper-center h1{
+    margin-bottom: 40px;
+}
+header .wrapper-center h1 a{
+    color: azure;
+    font-size: 2.5rem;
+    text-shadow: 3px 4px 1px black;
+    text-decoration: dashed;
+    transition: border-bottom .5s ease-in;
+}
+header .wrapper-center h1 a:hover{
+    border-bottom: 10px solid rgb(0, 195, 255);
+}
+header .wrapper-center img{
+    border-radius: 50%;
+    border: 7px solid #00e1ff;
+    width: 30%;
+    box-sizing: 0 15px 5px 1px rgba(0,0,0,.9);
+    margin-right: auto;
+}
+header .wrapper-center ul{
+    font-size: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+header .wrapper-center ul li{
+    margin-left: 60px;
+}
+header .wrapper-center ul li a{
+    position: center;
+    color: azure;
+    text-shadow: 3px 4px 2px black;
+    text-decoration: none;
+}
+.tentang-saya{
+    background: url(TS.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 10px;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.tentang-saya .wrapper h2 a{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 1px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+.tentang-saya .wrapper p{
+    font-size: 30px;
+    line-height: 55px;
+    padding: 0 45px;
+}
+.skill{
+    background: url('SKILL.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+.skill h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 1px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.skill .wrapper{
+    width: 50%;
+}
+.skill .wrapper-skill{
+    text-align: left;
+}
+.skill .wrapper-skill h5{
+    text-transform: uppercase;
+    text-shadow: 0 2px 1px rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+}
+.skill .wrapper-skill .background{
+    position: relative;
+    width: 80%;
+    height: 40px;
+    background: #990394;
+}
+.skill .wrapper-skill .background .indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    background: #00f0ff;
+    z-index: 2;
+}
+.indicator.MSOFC{
+    width: 80%;
+}
+.indicator.ADP{
+    width: 90%;
+}
+.indicator.HTML{
+    width: 40%;
+}
+.karya{
+    background: url(section.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    text-align: center;
+}
+.karya h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 4px 1px black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.karya .row{
+    margin-top: 50px;
+}
+.kotak{
+    background-color: #fddaf4;
+}
+.col h2{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}

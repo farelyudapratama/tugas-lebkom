@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farel PAGE</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper-center">
+            <h1><a href="..." target="_blank">Farel Yuda Pratama</a></h1>
+            <img src="PP.png" alt="Farel">
+            <ul>
+                <li><a href="#!">SKILL</a></li>
+                <li><a href="#!">KARYA</a></li>
+                <li><a href="#!">KONTAK</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="tentang-saya">
+        <div class="wrapper">
+            <h2><a href="">Tentang Saya</a></h2>
+            <p>Hai, nama saya Farel Yuda Pratama, saya menyukai beberapa hal terutama 
+                dalam teknologi dan desain, saat ini saya sedang fokus mempelajari dan mengkaji 
+                teknologi website dalam bidang front-end. saya menyukainya karena saat ini 
+                hidup hampir tidak pernah lepas dari internet membuat saya sadar betapa 
+                pentingnya tampilan web yang tentunya membuat penggunanya nyaman.</p>
+        </div>
+    </section>
+    <section class="skill">
+        <div class="container">
+            <h2>Skill</h2>
+            <!--Item Skill-->
+            <div class="wrapper-skill">
+                <h5>MICROSOFT OFFICE 80%</h5>
+                <div class="background">
+                    <div class="indicator MSOFC"></div>
+                </div>
+            </div>
+            <div class="wrapper-skill">
+                <h5>ADOBE PHOTOSHOP 90%</h5>
+                <div class="background">
+                    <div class="indicator ADP"></div>
+                </div>
+            </div>
+            <div class="wrapper-skill">
+                <h5>HTML 40%</h5>
+                <div class="background">
+                    <div class="indicator HTML"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--karya-->
+    <div class="karya">
+        <h2>KARYA</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="Burung.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="kereta_1.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="2.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="f1.jpeg" class="card-img-top" alt="blenderRender">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact Form-->
+    <section id="contact">
+      <div class="kotak">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Kontak Saya</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form action="contact.php" method="post">
+              <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama lengkap anda"/>
+              </div>
+              <div class="form-group">
+                <label for="email">Alamat Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email"/>
+              </div>
+              <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+              </div>
+              <button type="submit" name="submit" class="btn btn-primary mb-3">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="#">Farel Yuda Pratama</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
